@@ -1,0 +1,5 @@
+,mae,rmse,wape,skill_vs_naive_week,n
+Seasonal naive (same hour yesterday),6.6675,10.4001,0.1191,-0.0079,239850.0
+Seasonal naive (same hour last week),6.6154,10.5689,0.1182,0.0,239850.0
+LightGBM without holiday/school features,4.6894,7.1445,0.0838,0.2911,239850.0
+LightGBM (full),4.3125,6.483,0.077,0.3481,239850.0

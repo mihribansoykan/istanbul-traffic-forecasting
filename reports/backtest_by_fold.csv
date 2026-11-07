@@ -1,0 +1,41 @@
+model,mae,rmse,wape,skill_vs_naive_week,n,fold,kind
+Seasonal naive (same hour yesterday),6.7023,10.441,0.107,0.3832,23850.0,Ramazan Bayramı (Apr 8-14),holiday
+Seasonal naive (same hour last week),10.8656,15.3811,0.1735,0.0,23850.0,Ramazan Bayramı (Apr 8-14),holiday
+LightGBM without holiday/school features,7.4706,10.7276,0.1193,0.3125,23850.0,Ramazan Bayramı (Apr 8-14),holiday
+LightGBM (full),5.86,8.8781,0.0936,0.4607,23850.0,Ramazan Bayramı (Apr 8-14),holiday
+Seasonal naive (same hour yesterday),5.8255,9.3436,0.0881,0.6278,18000.0,Kurban Bayramı (Jun 14-20),holiday
+Seasonal naive (same hour last week),15.6531,20.5704,0.2367,0.0,18000.0,Kurban Bayramı (Jun 14-20),holiday
+LightGBM without holiday/school features,7.5394,10.7427,0.114,0.5183,18000.0,Kurban Bayramı (Jun 14-20),holiday
+LightGBM (full),6.9585,9.637,0.1052,0.5555,18000.0,Kurban Bayramı (Jun 14-20),holiday
+Seasonal naive (same hour yesterday),6.6724,10.613,0.1224,-0.4522,25200.0,Week of Oct 21,regular
+Seasonal naive (same hour last week),4.5948,7.2053,0.0843,0.0,25200.0,Week of Oct 21,regular
+LightGBM without holiday/school features,3.6873,5.5322,0.0677,0.1975,25200.0,Week of Oct 21,regular
+LightGBM (full),3.7156,5.48,0.0682,0.1913,25200.0,Week of Oct 21,regular
+Seasonal naive (same hour yesterday),7.5963,11.3965,0.1343,-0.194,25200.0,Week of Oct 28,regular
+Seasonal naive (same hour last week),6.3621,10.1902,0.1124,0.0,25200.0,Week of Oct 28,regular
+LightGBM without holiday/school features,5.686,8.7065,0.1005,0.1063,25200.0,Week of Oct 28,regular
+LightGBM (full),4.6037,6.9652,0.0814,0.2764,25200.0,Week of Oct 28,regular
+Seasonal naive (same hour yesterday),6.499,10.39,0.1215,0.0105,25200.0,Week of Nov 04,regular
+Seasonal naive (same hour last week),6.5683,10.4586,0.1228,0.0,25200.0,Week of Nov 04,regular
+LightGBM without holiday/school features,3.9259,5.9883,0.0734,0.4023,25200.0,Week of Nov 04,regular
+LightGBM (full),3.854,5.9202,0.072,0.4132,25200.0,Week of Nov 04,regular
+Seasonal naive (same hour yesterday),6.613,9.945,0.1247,-0.2145,25200.0,Week of Nov 11,regular
+Seasonal naive (same hour last week),5.445,8.2178,0.1027,0.0,25200.0,Week of Nov 11,regular
+LightGBM without holiday/school features,4.1732,6.0754,0.0787,0.2336,25200.0,Week of Nov 11,regular
+LightGBM (full),4.0042,5.8175,0.0755,0.2646,25200.0,Week of Nov 11,regular
+Seasonal naive (same hour yesterday),6.9408,10.8477,0.1275,-0.2233,25200.0,Week of Nov 18,regular
+Seasonal naive (same hour last week),5.6737,8.3889,0.1043,0.0,25200.0,Week of Nov 18,regular
+LightGBM without holiday/school features,4.1456,5.9836,0.0762,0.2693,25200.0,Week of Nov 18,regular
+LightGBM (full),4.0811,5.938,0.075,0.2807,25200.0,Week of Nov 18,regular
+Seasonal naive (same hour yesterday),6.5135,10.1229,0.1185,-0.3545,25200.0,Week of Nov 25,regular
+Seasonal naive (same hour last week),4.8088,7.3077,0.0875,0.0,25200.0,Week of Nov 25,regular
+LightGBM without holiday/school features,3.7105,5.3265,0.0675,0.2284,25200.0,Week of Nov 25,regular
+LightGBM (full),3.622,5.2427,0.0659,0.2468,25200.0,Week of Nov 25,regular
+Seasonal naive (same hour yesterday),6.8092,10.8067,0.1282,-0.5569,23250.0,Week of Dec 02,regular
+Seasonal naive (same hour last week),4.3735,6.6491,0.0823,0.0,23250.0,Week of Dec 02,regular
+LightGBM without holiday/school features,3.7407,5.3384,0.0704,0.1447,23250.0,Week of Dec 02,regular
+LightGBM (full),3.6295,5.219,0.0683,0.1701,23250.0,Week of Dec 02,regular
+Seasonal naive (same hour yesterday),6.2473,9.6302,0.1159,-0.4549,23550.0,Week of Dec 09,regular
+Seasonal naive (same hour last week),4.2938,6.5242,0.0797,0.0,23550.0,Week of Dec 09,regular
+LightGBM without holiday/school features,3.6357,5.1548,0.0674,0.1533,23550.0,Week of Dec 09,regular
+LightGBM (full),3.5314,5.0446,0.0655,0.1776,23550.0,Week of Dec 09,regular
